@@ -1022,7 +1022,7 @@ do
         -- // Esp Preview
         do
             window.VisualPreview = {
-                Size = {X = 5, Y = 0},
+                Size = {X = 0, Y = 0},
                 Color1 = Color3.fromRGB(0, 255, 0),
                 Color2 = Color3.fromRGB(255, 0, 0),
                 HealthBarFade = 0,
