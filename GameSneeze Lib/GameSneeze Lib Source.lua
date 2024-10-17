@@ -1019,17 +1019,7 @@ do
                 MaxColor.B + (MinColor.B - MaxColor.B) * Value
             )
         end
-            do -- New Drawings
-                local NewDrawings = {}
-                --
-                for Index, Value in pairs(library.drawings) do
-                    if Value[1] and table.find(window.VisualPreview.Drawings, Value[1]) then
-                        NewDrawings[Value[1]] = Value[3]
-                    end
-                end
-            end
-        end
-        --
+		
         function window:SetName(Name)
             title.Text = Name
         end
