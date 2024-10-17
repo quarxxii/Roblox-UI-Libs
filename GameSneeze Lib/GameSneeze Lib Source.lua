@@ -1027,8 +1027,6 @@ do
                         NewDrawings[Value[1]] = Value[3]
                     end
                 end
-                --
-                window.VisualPreview.Drawings = NewDrawings
             end
         end
         --
