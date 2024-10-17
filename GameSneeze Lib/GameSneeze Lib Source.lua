@@ -1028,7 +1028,7 @@ do
                 HealthBarFade = 0,
                 Fading = false,
                 State = false,
-                Visible = true,
+                Visible = false,
                 Drawings = {},
                 Components = {
                     Box = {
